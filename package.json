@@ -1,0 +1,15 @@
+{
+  "name": "@sandbox-as-a-service/fraud-service",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "packageManager": "pnpm@10.12.1",
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@vercel/node": "^5.3.5"
+  }
+}
