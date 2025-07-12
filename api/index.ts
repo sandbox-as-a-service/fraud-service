@@ -1,8 +1,10 @@
-import type { VercelRequest, VercelResponse } from "@vercel/node";
+import { VercelRequest, VercelResponse } from "@vercel/node";
 
-export default function handler(req: VercelRequest, res: VercelResponse) {
-  const name = req.query.name ?? "World";
-  res.writeHead(200);
-  res.write(`Hello ${name}!`);
-  res.end();
+export default async function handler(
+  _req: VercelRequest,
+  res: VercelResponse
+) {
+  const response = await fetch("https://api.vercel.app/products");
+  const products = await response.json();
+  res.status(200).json(products);
 }
