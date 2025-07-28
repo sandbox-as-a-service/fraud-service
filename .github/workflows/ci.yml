@@ -8,7 +8,9 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 on:
   push:
-    branches: [main]
+    branches: ["main"]
+  pull_request:
+    types: [opened, synchronize]
 
 jobs:
   install:
