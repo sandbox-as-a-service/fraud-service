@@ -31,4 +31,4 @@ jobs:
       - name: Install dependencies
         run: pnpm install
         env:
-          GITHUB_TOKEN: ${{ secrets.ORG_PAT }}
+          DEPENDABOT_ORG_PAT: ${{ secrets.DEPENDABOT_ORG_PAT }}
