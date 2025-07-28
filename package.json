@@ -9,7 +9,7 @@
     "@sandbox-as-a-service/types": "1.0.6"
   },
   "dependencies": {
-    "@vercel/node": "^5.3.5",
+    "@vercel/node": "^5.3.7",
     "zod": "^4.0.10"
   }
 }
