@@ -15,6 +15,9 @@ importers:
         specifier: ^4.0.5
         version: 4.0.5
     devDependencies:
+      '@sandbox-as-a-service/types':
+        specifier: 1.0.7
+        version: 1.0.7
       '@tsconfig/node22':
         specifier: ^22.0.2
         version: 22.0.2
@@ -102,6 +105,9 @@ packages:
     peerDependenciesMeta:
       rollup:
         optional: true
+
+  '@sandbox-as-a-service/types@1.0.7':
+    resolution: {integrity: sha512-HHO06gXScsj6tcBtu/S/PQPOHkII/WstrX6fWQMuQhRYGkOt1TLLJ2CumSMeRD/Nuyvnkum4IxsK+8nYiYYxOg==, tarball: https://npm.pkg.github.com/download/@sandbox-as-a-service/types/1.0.7/287beabd873688851542104ab26c1b9751fd0dee}
 
   '@ts-morph/common@0.11.1':
     resolution: {integrity: sha512-7hWZS0NRpEsNV8vWJzg7FEz6V8MaLNeJOmwmghqUXTpzk16V1LLZhdo+4QvE/+zv4cVci0OviuJFnqhEfoV3+g==}
@@ -811,6 +817,8 @@ snapshots:
       '@types/estree': 1.0.8
       estree-walker: 2.0.2
       picomatch: 4.0.2
+
+  '@sandbox-as-a-service/types@1.0.7': {}
 
   '@ts-morph/common@0.11.1':
     dependencies:

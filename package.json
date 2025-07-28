@@ -5,7 +5,8 @@
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",
     "@types/node": "^24.0.13",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "@sandbox-as-a-service/types": "1.0.7"
   },
   "dependencies": {
     "@vercel/node": "^5.3.5",
