@@ -1,23 +1,17 @@
 meta {
-  name: success
+  name: invalid-payload
   type: http
-  seq: 1
+  seq: 2
 }
 
 post {
   url: fraud-detection-mu.vercel.app/api
-  body: json
+  body: none
   auth: inherit
 }
 
 headers {
   Content-Type: application/json
-}
-
-body:json {
-  {
-    "ip": "100.100.0.0"
-  }
 }
 
 settings {
