@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@vercel/node':
-        specifier: ^5.3.5
-        version: 5.3.5
+        specifier: ^5.3.7
+        version: 5.3.7
       zod:
-        specifier: ^4.0.5
-        version: 4.0.5
+        specifier: ^4.0.13
+        version: 4.0.13
     devDependencies:
       '@sandbox-as-a-service/types':
         specifier: 1.0.7
@@ -22,8 +22,8 @@ importers:
         specifier: ^22.0.2
         version: 22.0.2
       '@types/node':
-        specifier: ^24.0.13
-        version: 24.0.13
+        specifier: ^24.1.0
+        version: 24.1.0
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -136,11 +136,11 @@ packages:
   '@types/node@16.18.11':
     resolution: {integrity: sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==}
 
-  '@types/node@24.0.13':
-    resolution: {integrity: sha512-Qm9OYVOFHFYg3wJoTSrz80hoec5Lia/dPp84do3X7dZvLikQvM1YpmvTBEdIr/e+U8HTkFjLHLnl78K/qjf+jQ==}
+  '@types/node@24.1.0':
+    resolution: {integrity: sha512-ut5FthK5moxFKH2T1CUOC6ctR67rQRvvHdFLCD2Ql6KXmMuCrjsSsRI9UsLCm9M18BMwClv4pn327UvB7eeO1w==}
 
-  '@vercel/build-utils@10.6.6':
-    resolution: {integrity: sha512-zhqsL6iQce3QShGyrqlyVJjp1FKo6ju36A/hDWcD31vIUM9e+7NxGzHXPsIKtBS6z92V+6PpLVln30KIJk2Hag==}
+  '@vercel/build-utils@11.0.0':
+    resolution: {integrity: sha512-jeBQHHOVqTgIMynVLtGUhf+Qf2Q0K1C/luZP7wuUM9veTeTMUSjju6HtpuJE5yuxre0rIogKRbKjvRXrAsbOIg==}
 
   '@vercel/error-utils@2.0.3':
     resolution: {integrity: sha512-CqC01WZxbLUxoiVdh9B/poPbNpY9U+tO1N9oWHwTl5YAZxcqXmmWJ8KNMFItJCUUWdY3J3xv8LvAuQv2KZ5YdQ==}
@@ -150,8 +150,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  '@vercel/node@5.3.5':
-    resolution: {integrity: sha512-nFn3er+Vmbc4TrdCn7k4rFU1ImJMwqGKF9sD+QcHYDemhsCqP/aLt6wknkTENryNjQKygKxbimdKwOs5godkMA==}
+  '@vercel/node@5.3.7':
+    resolution: {integrity: sha512-1g1yITH7wq3okruA7TCCPjPV5Fp8wsxTwTg8Pz7N8+fW5a/F4evjzvBgTXV+ZYx4C3DFwpc5t3Jbm079Kgksug==}
 
   '@vercel/static-config@3.1.1':
     resolution: {integrity: sha512-IRtKnm9N1Uqd2ayIbLPjRtdwcl1GTWvqF1PuEVNm9O43kmoI+m9VpGlW8oga+5LQq1LmJ2Y67zHr7NbjrH1rrw==}
@@ -587,8 +587,8 @@ packages:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
-  picomatch@4.0.2:
-    resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
+  picomatch@4.0.3:
+    resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
 
   pretty-ms@7.0.1:
@@ -739,8 +739,8 @@ packages:
     resolution: {integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==}
     engines: {node: '>=6'}
 
-  zod@4.0.5:
-    resolution: {integrity: sha512-/5UuuRPStvHXu7RS+gmvRf4NXrNxpSllGwDnCBcJZtQsKrviYXm54yDGV2KYNLT5kq0lHGcl7lqWJLgSaG+tgA==}
+  zod@4.0.13:
+    resolution: {integrity: sha512-jv+zRxuZQxTrFHzxZ46ezL2FtnE+M4HIJHJEwLsZ7UjrXHltdG6HrxvqM0twoVCWxJiYf8WqKjAcjztegpkB+Q==}
 
 snapshots:
 
@@ -816,7 +816,7 @@ snapshots:
     dependencies:
       '@types/estree': 1.0.8
       estree-walker: 2.0.2
-      picomatch: 4.0.2
+      picomatch: 4.0.3
 
   '@sandbox-as-a-service/types@1.0.7': {}
 
@@ -843,11 +843,11 @@ snapshots:
 
   '@types/node@16.18.11': {}
 
-  '@types/node@24.0.13':
+  '@types/node@24.1.0':
     dependencies:
       undici-types: 7.8.0
 
-  '@vercel/build-utils@10.6.6': {}
+  '@vercel/build-utils@11.0.0': {}
 
   '@vercel/error-utils@2.0.3': {}
 
@@ -863,20 +863,20 @@ snapshots:
       glob: 10.4.5
       graceful-fs: 4.2.11
       node-gyp-build: 4.8.4
-      picomatch: 4.0.2
+      picomatch: 4.0.3
       resolve-from: 5.0.0
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@vercel/node@5.3.5':
+  '@vercel/node@5.3.7':
     dependencies:
       '@edge-runtime/node-utils': 2.3.0
       '@edge-runtime/primitives': 4.1.0
       '@edge-runtime/vm': 3.2.0
       '@types/node': 16.18.11
-      '@vercel/build-utils': 10.6.6
+      '@vercel/build-utils': 11.0.0
       '@vercel/error-utils': 2.0.3
       '@vercel/nft': 0.29.2
       '@vercel/static-config': 3.1.1
@@ -1241,7 +1241,7 @@ snapshots:
 
   picomatch@2.3.1: {}
 
-  picomatch@4.0.2: {}
+  picomatch@4.0.3: {}
 
   pretty-ms@7.0.1:
     dependencies:
@@ -1380,4 +1380,4 @@ snapshots:
 
   yn@3.1.1: {}
 
-  zod@4.0.5: {}
+  zod@4.0.13: {}

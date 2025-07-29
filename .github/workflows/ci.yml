@@ -2,12 +2,15 @@ name: CI
 
 permissions:
   contents: read
+  packages: read
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 on:
   push:
-    branches: [main]
+    branches: ["main"]
+  pull_request:
+    types: [opened, synchronize]
 
 jobs:
   install:
@@ -31,4 +34,4 @@ jobs:
       - name: Install dependencies
         run: pnpm install
         env:
-          DEPENDABOT_ORG_PAT: ${{ secrets.DEPENDABOT_ORG_PAT }}
+          NPM_TOKEN: ${{ secrets.ORG_PAT }}
