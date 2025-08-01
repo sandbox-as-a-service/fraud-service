@@ -7,7 +7,7 @@ permissions:
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 env:
-  NPM_TOKEN: ""
+  NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 on:
   push:
