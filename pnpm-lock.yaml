@@ -16,8 +16,8 @@ importers:
         version: 4.0.14
     devDependencies:
       '@sandbox-as-a-service/types':
-        specifier: 1.0.12
-        version: 1.0.12
+        specifier: 1.0.22
+        version: 1.0.22
       '@tsconfig/node22':
         specifier: ^22.0.2
         version: 22.0.2
@@ -106,8 +106,8 @@ packages:
       rollup:
         optional: true
 
-  '@sandbox-as-a-service/types@1.0.12':
-    resolution: {integrity: sha512-0/bp7HIYuwZM0CN91b44CZuN7O1RqAEQcn9D8Q9H9TjyXncCrcljsZ2B1PmPtkLCwTq/thT5qlvtGOHkZSY0cQ==, tarball: https://npm.pkg.github.com/download/@sandbox-as-a-service/types/1.0.12/25ccf327ade7a5c56837c2c2f8b119e64844cfae}
+  '@sandbox-as-a-service/types@1.0.22':
+    resolution: {integrity: sha512-Nj7p+8zG2Jf48V0czmVlz+4sTmBUMkONxzG02gjAyMstW+Fi7mIQMXAVzoaltV1bpaRVf9411GQF/lXNRmJqAA==, tarball: https://npm.pkg.github.com/download/@sandbox-as-a-service/types/1.0.22/e01a86c19616ba4b618f9251a906d3e389e6a518}
 
   '@ts-morph/common@0.11.1':
     resolution: {integrity: sha512-7hWZS0NRpEsNV8vWJzg7FEz6V8MaLNeJOmwmghqUXTpzk16V1LLZhdo+4QvE/+zv4cVci0OviuJFnqhEfoV3+g==}
@@ -818,7 +818,7 @@ snapshots:
       estree-walker: 2.0.2
       picomatch: 4.0.3
 
-  '@sandbox-as-a-service/types@1.0.12': {}
+  '@sandbox-as-a-service/types@1.0.22': {}
 
   '@ts-morph/common@0.11.1':
     dependencies:

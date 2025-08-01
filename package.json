@@ -6,7 +6,7 @@
     "@tsconfig/node22": "^22.0.2",
     "@types/node": "^24.1.0",
     "typescript": "^5.9.2",
-    "@sandbox-as-a-service/types": "1.0.12"
+    "@sandbox-as-a-service/types": "1.0.22"
   },
   "dependencies": {
     "@vercel/node": "^5.3.8",
