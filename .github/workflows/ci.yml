@@ -23,19 +23,5 @@ jobs:
     name: Install Dependencies
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 2
-
-      - name: Enable Corepack
-        run: corepack enable
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: pnpm
-
-      - name: Install dependencies
-        run: pnpm install
+      - name: Setup Node.js and pnpm
+        uses: ./.github/actions/setup-node-pnpm
