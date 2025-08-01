@@ -6,8 +6,8 @@ permissions:
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
-# env:
-#   NPM_TOKEN: ${{ secrets.ORG_PAT_READ_PACKAGES }}
+env:
+  NPM_TOKEN: ${{ secrets.ORG_PAT_READ_PACKAGES }}
 
 on:
   push:
@@ -28,14 +28,5 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Enable Corepack
-        run: corepack enable
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: pnpm
-
-      - name: Install dependencies
-        run: pnpm install
+      - name: Setup Node.js and pnpm
+        uses: ./.github/actions/setup-node-pnpm
