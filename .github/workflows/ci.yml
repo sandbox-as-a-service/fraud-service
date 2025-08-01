@@ -24,4 +24,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node.js and pnpm
-        uses: sandbox-as-a-service/actions/setup-node-with-corepack
+        uses: sandbox-as-a-service/actions/setup-node-with-corepack@main
