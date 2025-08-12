@@ -10,6 +10,6 @@
   },
   "dependencies": {
     "@vercel/node": "^5.3.11",
-    "zod": "^4.0.15"
+    "zod": "^4.0.17"
   }
 }
