@@ -24,7 +24,7 @@ This project uses **pnpm** as the package manager. Use **corepack** to install i
 ### Prerequisites
 
 - Node.js (configured for Node 22 via tsconfig)
-- Corepack (usually comes with Node.js)
+- Corepack (comes with Node.js 16+)
 
 ### Installation
 
